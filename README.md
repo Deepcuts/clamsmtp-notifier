@@ -1,5 +1,4 @@
 # clamsmtp-notifier
-clamsmtp-notifier
 
 
 What it does 1: Notifies the final recipient if an email gets deleted by clamsmtp, but only if the recipient is managed by the server running the script.
