@@ -11,7 +11,7 @@
 # How to enable: in your clamsmtp.conf add the line VirusAction: /PathToThis/script at the end of the file and uncomment it. 
 # Make the script executable and chown it to clamsmtp:clamsmtp
 # Tested on: Debian 11
-# TMP_LOC and LOG directories need write permission for clamsmtp user.
+# TMP_LOC and LOG_DIR directories need write permission for clamsmtp user.
 # This script will try to create the LOG_DIR and set the correct permission if executed by a user with proper permissions.
 # This script will check if TMP_LOC is writeable. Best bet is to leave it as /tmp
 # This script will check for mailx command and trying to install it automatically if run with proper permissions.
