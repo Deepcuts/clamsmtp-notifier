@@ -119,7 +119,7 @@ cat $TMP_FILE | mailx -a "From: $FROM_EMAIL" -r "$FROM_EMAIL" -s "$SUBJECT_EMAIL
 # Deleting the temporary file
 rm -f $TMP_FILE
 
-# Continue with next recipient and exit when done with all recipients
+# Continue with next recipient
 break
 esac
 done
@@ -174,7 +174,7 @@ cat $TMP_FILE | mailx -a "From: $FROM_EMAIL" -r "$FROM_EMAIL" -s "$SUBJECT_EMAIL
 # Deleting the temporary file
 rm -f $TMP_FILE
 
-# Continue with next recipient and exit when done with all recipients
+# Continue with next sender
 break
 esac
 done
