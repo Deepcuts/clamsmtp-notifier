@@ -23,7 +23,7 @@
 # Return the hostname from hostname command or manually set without ``
 EMAIL_SYS_NAME=`hostname`
 # The email to send the notification from
-FROM_EMAIL=postmaster@inteq.ro
+FROM_EMAIL=postmaster@domain.com
 # The email to CC, like the domain admin. Leave emtpy to not send a CC notification
 TO_ADMIN= # leave empty to not notify admin also
 # Notification email subject
@@ -31,7 +31,7 @@ SUBJECT_EMAIL="=?utf-8?Q?=E2=9A=A0?= Warning: Malware found in an email"
 # File containing the list of domains hosted on this server. One domain per line. Need read permission for user running theis script
 DOMAINS_FILE=/etc/dkim-domains.txt
 # Email address in notification responsible for security and troubleshooting.
-HELPDESK_EMAIL=helpdesk@inteq.ro
+HELPDESK_EMAIL=helpdesk@domain.com
 # Directory for logs
 LOG_DIR=/var/log/clamsmtp
 # Log file name
