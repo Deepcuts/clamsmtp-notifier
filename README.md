@@ -15,7 +15,7 @@ Make the script executable and chown it to clamsmtp:clamsmtp
 
 Tested on: Debian 11
 
-TMP_LOC and LOG directories need write permission for clamsmtp user.
+TMP_LOC and LOG_DIR directories need write permission for clamsmtp user.
 
 This script will try to create the LOG_DIR and set the correct permission if executed by a user with proper permissions.
 
