@@ -6,7 +6,7 @@ What it does 1: Notifies the final recipient if an email gets deleted by clamsmt
 
 What it does 2: Notifies the sender if an email gets deleted by clamsmtp, but only if the sender is managed by the server running the script.
 
-Why: If an important email gets deleted, the user should know instead of waiting for that sweet seet cat pic in vain.
+Why: If an important email gets deleted, the user should know instead of waiting for that sweet sweet cat pic in vain.
 
 Requirements: clamsmpt, mailutils, a file with hosted domain names (one domain/line) and of course, a system set to delete emails if found infected.
 
