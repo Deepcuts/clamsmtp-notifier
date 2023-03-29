@@ -1,6 +1,7 @@
 # clamsmtp-notifier
 clamsmtp-notifier
 Name: clamsmtp-notifier-script
+
 Date: 30 March 2023
 by: INTEQ (tech@inteq.ro)
 What it does 1: Notifies the final recipient if an email gets deleted by clamsmtp, but only if the recipient is managed by the server running the script.
