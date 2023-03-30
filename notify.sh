@@ -46,7 +46,7 @@ CLAMSMTPGROUP=clamsmtp
 ### Setup variables end ###
 
 
-# Check if dependencies are met. Will try to install automatically mail.
+# Check if dependencies are met. Will try to install automatically mailutils.
 # WARNING: Only debian compatible (apt). Modify to suit your operating system.
 # Comment the next line to disable checking.
 type mailx >/dev/null 2>&1 || { echo >&2 "This script requires mailx, but it's not installed. Trying to install now..."; DEBIAN_FRONTEND=noninteractive apt install mailutils -y -qq < /dev/null > /dev/null; }
