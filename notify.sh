@@ -71,7 +71,7 @@ echo "Remote server $SERVER" >> $LOG_FILE
 echo "Sender $SENDER" >> $LOG_FILE
 echo "Recipient(s): $RECIPIENTS" >> $LOG_FILE
 
-# If a virus is found in an inbound email send to one of the domains hosted on this server
+# If a virus is found in an inbound email sent to one of the domains hosted on this server
 # For every recipient, do a check
 for rcpt in $RECIPIENTS; do
 
@@ -126,7 +126,7 @@ done
 done
 
 
-# If a virus is found in an outbound email send from one of the domains hosted on this server
+# If a virus is found in an outbound email sent from one of the domains hosted on this server
 # For sender, do a check
 for sndr in $SENDER; do
 
