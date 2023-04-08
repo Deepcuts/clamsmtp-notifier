@@ -40,7 +40,7 @@ LOG_FILE=$LOG_DIR/notify.log
 TMP_LOC=/tmp
 # User running this script
 CLAMSMTPUSER=clamsmtp
-# Group for the user runnign this script
+# Group for the user running this script
 CLAMSMTPGROUP=clamsmtp
 
 ### Setup variables end ###
